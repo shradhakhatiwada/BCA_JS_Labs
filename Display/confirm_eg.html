@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Confirm Example</title>
+</head>
+<body>
+
+    <button onclick="checkChoice()">Delete File</button>
+
+    <script>
+        function checkChoice() {
+            let result = confirm("Are you sure you want to delete this file?");
+
+            if (result) {
+                alert("File deleted.");
+            } else {
+                alert("Deletion cancelled.");
+            }
+        }
+    </script>
+
+</body>
+</html>
