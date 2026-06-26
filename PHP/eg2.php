@@ -4,8 +4,8 @@
 <body>
 
 <?php
-ECHO 'Hello World!<br>';
-echo 'Hello World!<br>';
+ECHO 'Hello World!<br>',25,"hi";//separate with commag and print multiple statements
+echo ('Hello World!<br>');
 
 
 
